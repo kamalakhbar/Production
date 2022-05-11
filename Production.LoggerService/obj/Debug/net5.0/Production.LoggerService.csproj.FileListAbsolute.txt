@@ -1,0 +1,15 @@
+C:\Users\User\Downloads\Butkem ASTRA\Production\Production\Production.LoggerService\bin\Debug\net5.0\Production.LoggerService.deps.json
+C:\Users\User\Downloads\Butkem ASTRA\Production\Production\Production.LoggerService\bin\Debug\net5.0\Production.LoggerService.dll
+C:\Users\User\Downloads\Butkem ASTRA\Production\Production\Production.LoggerService\bin\Debug\net5.0\Production.LoggerService.pdb
+C:\Users\User\Downloads\Butkem ASTRA\Production\Production\Production.LoggerService\bin\Debug\net5.0\Production.Contracts.dll
+C:\Users\User\Downloads\Butkem ASTRA\Production\Production\Production.LoggerService\bin\Debug\net5.0\Production.Contracts.pdb
+C:\Users\User\Downloads\Butkem ASTRA\Production\Production\Production.LoggerService\obj\Debug\net5.0\Production.LoggerService.csproj.AssemblyReference.cache
+C:\Users\User\Downloads\Butkem ASTRA\Production\Production\Production.LoggerService\obj\Debug\net5.0\Production.LoggerService.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Downloads\Butkem ASTRA\Production\Production\Production.LoggerService\obj\Debug\net5.0\Production.LoggerService.AssemblyInfoInputs.cache
+C:\Users\User\Downloads\Butkem ASTRA\Production\Production\Production.LoggerService\obj\Debug\net5.0\Production.LoggerService.AssemblyInfo.cs
+C:\Users\User\Downloads\Butkem ASTRA\Production\Production\Production.LoggerService\obj\Debug\net5.0\Production.LoggerService.csproj.CoreCompileInputs.cache
+C:\Users\User\Downloads\Butkem ASTRA\Production\Production\Production.LoggerService\obj\Debug\net5.0\Production.LoggerService.csproj.CopyComplete
+C:\Users\User\Downloads\Butkem ASTRA\Production\Production\Production.LoggerService\obj\Debug\net5.0\Production.LoggerService.dll
+C:\Users\User\Downloads\Butkem ASTRA\Production\Production\Production.LoggerService\obj\Debug\net5.0\refint\Production.LoggerService.dll
+C:\Users\User\Downloads\Butkem ASTRA\Production\Production\Production.LoggerService\obj\Debug\net5.0\Production.LoggerService.pdb
+C:\Users\User\Downloads\Butkem ASTRA\Production\Production\Production.LoggerService\obj\Debug\net5.0\ref\Production.LoggerService.dll

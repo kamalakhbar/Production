@@ -18,7 +18,14 @@
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
+    <PackageReference Include="NLog" Version="4.7.15" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Production.Contracts\Production.Contracts.csproj" />
+    <ProjectReference Include="..\Production.Entities\Production.Entities.csproj" />
+    <ProjectReference Include="..\Production.LoggerService\Production.LoggerService.csproj" />
   </ItemGroup>
 
 </Project>

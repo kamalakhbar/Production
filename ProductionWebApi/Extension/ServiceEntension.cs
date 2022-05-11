@@ -13,6 +13,11 @@ using System;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
+using Production.LoggerService;
+using Production.Contracts;
+using Production.Entities.Context;
+using Production.Repository;
+
 namespace ProductionWebApi.Extension
 {
     public static class ServiceEntension
@@ -34,5 +39,15 @@ namespace ProductionWebApi.Extension
 
             }
             );
+        public static void ConfigureLoggerService(this IServiceCollection services) =>
+            services.AddScoped<ILoggerManager, LoggerManager>();
+
+
+        public static void ConfigureDbContext(this IServiceCollection services, IConfiguration configuration) =>
+            services.AddDbContext<AdventureWorks2019Context>(options =>
+            options.UseSqlServer(configuration.GetConnectionString("DbCon")));
+
+        public static void ConfigureRepositoryManager(this IServiceCollection services) =>
+            services.AddScoped<IRepositoryManager, RepositoryManager>();
     }
 }

@@ -12,14 +12,15 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-
+using NLog;
+using System.IO;
 namespace ProductionWebApi
 {
     public class Startup
     {
         public Startup(IConfiguration configuration)
         {
-            LogManager
+            LogManager.LoadConfiguration(string.Concat(Directory.GetCurrentDirectory(), "/nlog.config"));
             Configuration = configuration;
 
         }
@@ -31,7 +32,7 @@ namespace ProductionWebApi
         {
             services.ConfigureCors();
             services.ConfigureIISIntergration();
-
+            services.ConfigureLoggerService();
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {
